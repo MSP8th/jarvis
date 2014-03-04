@@ -575,7 +575,7 @@ nav.light .main-menu li.active a, nav.dark .main-menu li.active a {
 /* PARALLAX SECTION 1
 --------------------------------------------------------*/
 .bg1 {
-	background-image: url(../images/parallax/parallax1.jpg);
+	background-image: url(../images/parallax/parallax6.jpg);
 }
 p.quote {
 	font-family: 'BebasNeueRegular', sans-serif;
@@ -614,7 +614,7 @@ p.quote {
 --------------------------------------------------------*/
 	
 .bg2 {
-	background-image: url(../images/parallax/parallax2.jpg);
+	background-image: url(../images/parallax/parallax8.jpg);
 }
 .twitter-slider {
 	width: 85%;
@@ -729,8 +729,18 @@ p.quote {
 /* PARALLAX SECTION 4
 --------------------------------------------------------*/
 
+
+#parallax4 .parallax  {
+	height: 700px;
+}
+
+#parallax4 .parallax .overlay {
+	/*height: 700px;*/
+}
+
 .bg4 {
 	background-image: url(../images/parallax/parallax4.jpg);
+
 
 }
 /*--------------------------------------------------------
@@ -793,11 +803,11 @@ p.quote {
 	text-align: center;
 }
 .title h1 {
-	line-height: 0.8;
+	line-height: 1;
 	margin-bottom: 20px;
-	line-height: 0.8;
+	line-height: 1;
 	display: inline-block;
-	padding: 10px 10px 3px;
+	padding: 4px 4px 4px 4px;
 	background: #FFD600;
 	color: #fff;
 	border: 4px solid #ffffff;
@@ -808,8 +818,8 @@ p.quote {
 	line-height: 0.8;
 }
 .subtitle {
-	font-family: 'Open Sans', "Times New Roman", Times, serif;
-	font-size: 25px;
+	font-family: '微軟正黑體', 'Open Sans', "Times New Roman", Times, serif;
+	font-size: 40px;
 	line-height: 1.2;
 	padding: 0;
 	margin-bottom: 40px;
