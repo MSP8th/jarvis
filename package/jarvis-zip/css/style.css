@@ -314,7 +314,8 @@ nav .container .four.columns {
 }
 nav .container .twelve.columns {
 	float: right;
-	width: auto
+	width: auto;
+	margin-top: 15px;
 }
 .main-menu, .logo {
 	height: 50px;
@@ -334,7 +335,7 @@ nav .container .twelve.columns {
 }
 .main-menu a {
 	font-family: 'BebasNeueRegular', sans-serif;
-	font-size: 22px;
+	font-size: 30px;
 	color: white;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -354,7 +355,7 @@ nav.light .main-menu li.active a, nav.dark .main-menu li.active a {
 }
 .main-menu a i {
 	margin-right: 3px;
-	font-size: 22px;
+	font-size: 30px;
 }
 /*== ICONIC NAVIGATION ==*/
 .main-menu.iconic li {
@@ -682,7 +683,7 @@ p.quote {
 --------------------------------------------------------*/
 
 .bg3 {
-	background-image: url(../images/parallax/parallax3.jpg);
+	background-image: url(../images/parallax/parallax11.jpg);
 }
 .testimonial-slider {
 	position: relative;
@@ -706,7 +707,8 @@ p.quote {
 .testimonial-slide .client-testimonial {
 	font-size: 13px;
 	font-family: 'Oswald', sans-serif;
-	font-size: 16px;
+	font-size: 40px;
+	font-weight: 900;
 	color: white;
 	line-height: 1.67;
 	margin: 5px auto 10px;
@@ -730,16 +732,16 @@ p.quote {
 --------------------------------------------------------*/
 
 
-#parallax4 .parallax  {
+#parallax4.parallax  {
 	height: 700px;
 }
 
-#parallax4 .parallax .overlay {
-	/*height: 700px;*/
+#parallax4.overlay{
+	height: 700px;
 }
 
 .bg4 {
-	background-image: url(../images/parallax/parallax4.jpg);
+	background-image: url(../images/parallax/parallax13.jpg);
 
 
 }
@@ -796,6 +798,7 @@ p.quote {
 }
 #team.page {
 	position:static;
+	padding-bottom: 0px;
 }
 /*======== TITLE SECTION ========*/
 
@@ -828,7 +831,25 @@ p.quote {
 	font-weight: 700;
 	text-transform: uppercase;
 }
+.subtitle p {
+	font-family: '微軟正黑體';
+	font-size: 25px;
+	
 
+}
+
+.subtitle2 p {
+	font-family: '微軟正黑體';
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.subtitle3 p {
+	font-family: '微軟正黑體';
+	font-size: 18px;
+	font-weight: 500;
+	text-align: left;
+}
 
 /*======== HOME SECTION ========*/	
 #home {
@@ -1927,5 +1948,60 @@ a#button-newsletter {
 }
 
 
+.pure-table{border-collapse:collapse;border-spacing:0;empty-cells:show;border:1px solid #cbcbcb}.pure-table caption{color:#000;font:italic 85%/1 arial,sans-serif;padding:1em 0;text-align:center}.pure-table td,.pure-table th{border-left:1px solid #cbcbcb;border-width:0 0 0 1px;font-size:inherit;margin:0;overflow:visible;padding:6px 12px}.pure-table td:first-child,.pure-table th:first-child{border-left-width:0}.pure-table thead{background:#e0e0e0;color:#000;text-align:left;vertical-align:bottom}.pure-table td{background-color:transparent}.pure-table-odd td{background-color:#f2f2f2}.pure-table-striped tr:nth-child(2n-1) td{background-color:#f2f2f2}.pure-table-bordered td{border-bottom:1px solid #cbcbcb}.pure-table-bordered tbody>tr:last-child td,.pure-table-horizontal tbody>tr:last-child td{border-bottom-width:0}.pure-table-horizontal td,.pure-table-horizontal th{border-width:0 0 1px;border-bottom:1px solid #cbcbcb}.pure-table-horizontal tbody>tr:last-child td{border-bottom-width:0}
 
+.btn-primary.active,
+.btn-warning.active,
+.btn-danger.active,
+.btn-success.active,
+.btn-info.active,
+.btn-inverse.active {
+  color: rgba(255, 255, 255, 0.75);
+}
 
+.btn-primary {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #006dcc;
+  *background-color: #0044cc;
+  background-image: -moz-linear-gradient(top, #0088cc, #0044cc);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc));
+  background-image: -webkit-linear-gradient(top, #0088cc, #0044cc);
+  background-image: -o-linear-gradient(top, #0088cc, #0044cc);
+  background-image: linear-gradient(to bottom, #0088cc, #0044cc);
+  background-repeat: repeat-x;
+  border-color: #0044cc #0044cc #002a80;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.disabled,
+.btn-primary[disabled] {
+  color: #ffffff;
+  background-color: #0044cc;
+  *background-color: #003bb3;
+}
+
+.btn-primary:active,
+.btn-primary.active {
+  background-color: #003399 \9;
+}
+
+.btn-group.open .btn-primary.dropdown-toggle {
+  background-color: #0044cc;
+}
+
+.btn-primary .caret,
+.btn-warning .caret,
+.btn-danger .caret,
+.btn-info .caret,
+.btn-success .caret,
+.btn-inverse .caret {
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
+}
